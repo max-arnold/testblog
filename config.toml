@@ -1,3 +1,20 @@
-baseURL = "http://example.org/"
+baseURL = ""
+defaultContentLanguage = "en"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Example"
+theme = "mytheme"
+buildDrafts = true
+enableRobotsTXT = true
+rssLimit = 100
+
+[outputs]
+home = ["HTML", "RSS"]
+page = ["HTML"]
+section = ["HTML"]
+# taxonomyTerm = ["HTML"]
+# taxonomy = ["HTML"]
+
+[outputFormats]
+[outputFormats.RSS]
+# change name of rss feed
+baseName = "feed"
