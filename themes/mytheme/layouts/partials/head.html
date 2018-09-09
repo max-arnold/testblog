@@ -1,0 +1,3 @@
+<head>
+  {{ if .RSSLink }}<link rel="alternate" type="application/rss+xml" href="{{ .RSSLink | relLangURL }}" title="{{ .Site.Title }}">{{- end }}
+</head>

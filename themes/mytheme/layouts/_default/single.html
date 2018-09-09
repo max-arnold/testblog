@@ -1,0 +1,11 @@
+{{ define "main" -}}
+<main>
+    <article>
+        <header>
+            <h1><a href="{{ .Permalink }}">{{ if .Draft }}[DRAFT] {{ end }}{{ .Title }}</a></h1>
+        </header>
+
+        {{ .Content }}
+    </article>
+</main>
+{{- end }}
