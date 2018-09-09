@@ -1,0 +1,14 @@
+# emacs
+*~
+.\#*
+\.\#.+
+
+# diff/merge
+*.orig
+*.rej
+
+# mac
+.DS_Store
+
+# hugo
+/public/
